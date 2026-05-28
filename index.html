@@ -49,7 +49,7 @@
           <img
             alt="Photo du comptoire"
             class="cafeproject-photo_1"
-            src="/home/diango/code/formation/cafe-project/assets/coffeeshop.jpg"
+            src="./assets/coffeeshop.jpg"
           />
           <p class="mentions-complementaires_1">
             <span>Opening hours:</span> everyday from 6am to 5pm.
@@ -63,45 +63,51 @@
       <section class="cafeproject-section">
         <h2 class="cafeproject-section_title">THE MENU</h2>
         <div class="cafeproject-section_wrapper">
-          <button class="button-menu">Eat</button>
-          <button class="button-menu">Drink</button>
-          <div class="cafeproject-section_container">
-            <h3 class="texte-tableau_noir">Bread Basket</h3>
-            <p class="texte-tableau_gris">
-              Assortment of fresh baked fruit breads and muffins 5.50
-            </p>
+          <div class="cafeproject-button">
+            <button class="button-menu">Eat</button>
+            <button class="button-menu">Drink</button>
           </div>
           <div class="cafeproject-section_container">
-            <h3 class="texte-tableau_noir">Honey Almond Granola with Fruits</h3>
-            <p class="texte-tableau_gris">
-              Natural cereal of honey toasted oats, raisins, almonds and dates
-              7.00
-            </p>
-          </div>
-          <div class="cafeproject-section_container">
-            <h3 class="texte-tableau_noir">Belgian Waffle</h3>
-            <p class="texte-tableau_gris">
-              Vanilla flavored batter with malted flour 7.50
-            </p>
-          </div>
-          <div class="cafeproject-section_container">
-            <h3 class="texte-tableau_noir">Scrambled eggs</h3>
-            <p class="texte-tableau_gris">
-              Scrambled eggs, roasted red pepper and garlic, with green onions
-              7.50
-            </p>
-          </div>
-          <div class="cafeproject-section_container">
-            <h3 class="texte-tableau_noir">Blueberry Pancakes</h3>
-            <p class="texte-tableau_gris">
-              With syrop, butter and lots of berries 8.50
-            </p>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Bread Basket</h3>
+              <p class="texte-tableau_gris">
+                Assortment of fresh baked fruit breads and muffins 5.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">
+                Honey Almond Granola with Fruits
+              </h3>
+              <p class="texte-tableau_gris">
+                Natural cereal of honey toasted oats, raisins, almonds and dates
+                7.00
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Belgian Waffle</h3>
+              <p class="texte-tableau_gris">
+                Vanilla flavored batter with malted flour 7.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Scrambled eggs</h3>
+              <p class="texte-tableau_gris">
+                Scrambled eggs, roasted red pepper and garlic, with green onions
+                7.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Blueberry Pancakes</h3>
+              <p class="texte-tableau_gris">
+                With syrop, butter and lots of berries 8.50
+              </p>
+            </div>
           </div>
         </div>
         <img
           alt="Photo du Café"
           class="cafeproject-photo_2"
-          src="/home/diango/code/formation/cafe-project/assets/coffeehouse2.jpg"
+          src="./assets/coffeehouse2.jpg"
         />
       </section>
       <section class="cafeproject-section">
@@ -111,12 +117,12 @@
           <img
             alt="Photo de l'emplacement"
             class="cafeproject-photo_3"
-            src="/home/diango/code/formation/cafe-project/assets/map.jpg"
+            src="./assets/map.jpg"
           />
           <p class="texte-normal">
-            FYI! We offer full-service catering for any event, large or small.
-            We understand your needs and we will cater the food to satisfy the
-            biggerst criteria of them all, both look and taste.
+            <span>FYI!</span> We offer full-service catering for any event,
+            large or small. We understand your needs and we will cater the food
+            to satisfy the biggerst criteria of them all, both look and taste.
           </p>
           <p class="texte-normal">
             <span>Reserve</span> a table, ask for today's special or just send
@@ -143,27 +149,34 @@
               <div class="cafeproject-date">
                 <input
                   class="texte-formulaire_noir"
-                  type="number"
+                  type="date"
                   name="date"
                   placeholder="16/11/2017, 20:00"
                 />
               </div>
               <div class="cafeproject-colonm">
-                <input
-                  class="texte-formulaire_gris"
-                  type="text"
-                  name="message"
-                  placeholder="Message \ Special requirements"
-                />
+                <textarea
+                  rows="1"
+                  cols="40"
+                  placeholder="Message \ special requirements"
+                >
+                </textarea>
+              </div>
+              <div class="cafeproject-colonm">
+                <input type="submit" value="SEND MESSAGE" />
               </div>
             </div>
           </form>
-          <button class="button-send">SEND MESSAGE</button>
         </div>
       </section>
     </main>
     <footer class="cafeproject-footer">
       <p>Powered by w3.css</p>
     </footer>
+    <style>
+      textarea {
+        resize: none;
+      }
+    </style>
   </body>
 </html>
