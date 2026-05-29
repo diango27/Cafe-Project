@@ -1,4 +1,6 @@
-Au commencement, mon encadrant technique m'a envoyé le projet sur Slack, que j'ai telechargé, dezippé, et en suite je suis allé dans mes fichiers, j'ai ouvert mon dossier Code, ensuite le dossier Formation, et pour terminer, j'ai créé le dossier du projet sous le nom du "Café-project", dans lequel j'ai enregistré le projet.
-Ensuite, j'ai ouvert mon dossier "Café-project, et j'ai commencé à inspecter toutes les pieces du projet, en occurence : les 2 maquettes, dont une pour le mobile et l'autre pour le deskop, le dossier "Font" qui contient 2 diffentes polices, et le dossier "Assets" qui contient les 4 images.
-Ensuite, j'ai commencé à inspecter la maquette mobile, car, je dois commencer par la maquette mobile avant de passer à la maquette deskop.
-Puis, j'ai commencer à faire le decoupage de façon à pouvoir commencer à elaborer la structure de mon HTML.
+Au commencement, mon encadrant technique m'a envoyé un projet a realiser, j'ai créé le dossier du projet sous le nom du "Café-project".
+Ensuite, j'ai commencé à inspecter toutes les pieces du projet, en occurence : les 2 maquettes, dont une pour le mobile et l'autre pour le deskop, le dossier "Font" qui contient 2 diffentes polices, et le dossier "Assets" qui contient 4 images.
+Ensuite, j'ai inspecter la maquette mobile, car, je dois commencer par la maquette mobile avant de passer à la maquette deskop.
+J'ai créé le ripository, et j'ai initialisé git
+Puis, j'ai fait le decoupage de façon à pouvoir elaborer la structure de mon HTML.
+En ce qui concerne mon HTML, j'ai elaborer la structure de base.
