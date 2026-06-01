@@ -1,7 +1,9 @@
 :root {
-  --black-custom:                       
-
-;
+  --black-custom: #000000;
+  --white-custom: #ffffff;
+  --light-gray-custom: #e7e7e7;
+  --blue-light-custom: #6699cc;
+  --ivory-custom: #e8e9e8;
 }
 @font-face {
   font-family: Inconsolata-Bold;
@@ -15,4 +17,74 @@
   padding: 0;
   font-family: Inconsolata-Bold;
   font-family: Inconsolata-Regular;
+}
+textarea {
+  resize: none;
+}
+body {
+  background-color: var(--ivory-custom);
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: var(--black-custom);
+}
+.cafeproject-footer {
+  background-color: var(--light-gray-custom);
+  color: var(--black-custom);
+}
+h1 {
+  color: var(--white-custom);
+}
+.cafeproject-nav {
+  color: var(--white-custom);
+}
+.opening-hours {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
+}
+.address {
+  color: var(--white-custom);
+}
+.cafeproject-section_title {
+  color: var (--white-custom);
+  background-color: var(--black-custom);
+}
+.texte-normal {
+  color: var(--black-custom);
+}
+.texte-italic {
+  color: var(--black-custom);
+  background-color: var(--blue-light-custom);
+}
+.mentions-complementaires_1mentions-complementaires_2 {
+  color: var(--black-custom);
+}
+.button-menu {
+  color: var(--black-custom);
+}
+.texte-tableau_noir {
+  color: var(--black-custom);
+}
+.texte-tableau_gris {
+  color: var(--light-gray-custom);
+}
+.texte-formulaire_gris {
+  color: var(--light-gray-custom);
+}
+input {
+  background-color: var(--white-custom);
+  color: var(--light-gray-custom);
+}
+.cafeproject-colonm {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
+}
+textarea {
+  color: var(--black-custom);
+  background-color: var(--white-custom);
+}
+input[type="submit"] {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
 }
