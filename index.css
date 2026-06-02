@@ -2,7 +2,7 @@
   --black-custom: #000000;
   --white-custom: #ffffff;
   --light-gray-custom: #e7e7e7;
-  --blue-light-custom: #6699cc;
+  --blue-light-custom: #e7edf7;
   --ivory-custom: #e8e9e8;
 }
 @font-face {
@@ -35,6 +35,8 @@ header {
 }
 h1 {
   color: var(--white-custom);
+  background: url(assets/coffeehouse.jpg);
+  padding: 100px;
 }
 .cafeproject-nav {
   color: var(--white-custom);
@@ -87,4 +89,17 @@ textarea {
 input[type="submit"] {
   color: var(--white-custom);
   background-color: var(--black-custom);
+}
+.fui {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
+}
+.cafeproject-section-header {
+  display: flex;
+  flex-direction: column;
+  align-content:;
+  justify-content: space-around;
+  gap: 50px;
+}
+.cafeproject-nav {
 }
