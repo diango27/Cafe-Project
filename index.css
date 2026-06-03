@@ -33,13 +33,40 @@ header {
   background-color: var(--light-gray-custom);
   color: var(--black-custom);
 }
+.cafeproject-header {
+  background: url(assets/coffeehouse.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafeproject-section-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-background {
+  display: flex;
+  flex-direction: row;
+}
 h1 {
   color: var(--white-custom);
-  background: url(assets/coffeehouse.jpg);
-  padding: 100px;
 }
 .cafeproject-nav {
+  width: 100%;
+  height: 32px;
+  background-color: var(--black-custom);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 50px;
+}
+.cafeproject-nav a {
   color: var(--white-custom);
+  text-decoration: none;
+  font-weight: 1px;
 }
 .opening-hours {
   color: var(--white-custom);
@@ -50,7 +77,6 @@ h1 {
 }
 .cafeproject-section_title {
   color: var (--white-custom);
-  background-color: var(--black-custom);
 }
 .texte-normal {
   color: var(--black-custom);
@@ -93,13 +119,6 @@ input[type="submit"] {
 .fui {
   color: var(--white-custom);
   background-color: var(--black-custom);
-}
-.cafeproject-section-header {
-  display: flex;
-  flex-direction: column;
-  align-content:;
-  justify-content: space-around;
-  gap: 50px;
 }
 .cafeproject-nav {
 }
