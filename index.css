@@ -7,16 +7,19 @@
 }
 @font-face {
   font-family: Inconsolata-Bold;
-  src: url(./font/Inconsolata-Bold.ttf);
+  src: url("./font/Inconsolata-Bold.ttf");
 
-  font-family: Inconsolata-Regular;
-  src: url(./font/Inconsolata-Regular.ttf);
+  font-family: "Inconsolata-Regular";
+  src: url("./font/Inconsolata-Regular.ttf");
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: Inconsolata-Bold;
-  font-family: Inconsolata-Regular;
+  font-family: "Inconsolata-Bold";
+  font-family: "Inconsolata-Regular";
+}
+main {
+  margin: 30px 15px 50px 15px;
 }
 textarea {
   resize: none;
@@ -32,9 +35,12 @@ header {
 .cafeproject-footer {
   background-color: var(--light-gray-custom);
   color: var(--black-custom);
+  display: flex;
+  justify-content: center;
+  margin: 30px 1px;
 }
 .cafeproject-header {
-  background: url(assets/coffeehouse.jpg);
+  background: url("assets/coffeehouse.jpg");
   height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,9 +55,27 @@ header {
 .div-background {
   display: flex;
   flex-direction: row;
+  align-content: space-around;
+  width: 92%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 9px;
 }
 h1 {
   color: var(--white-custom);
+}
+h1 .block-text {
+  display: block;
+}
+h1 .block-text:first-child {
+  margin-bottom: 10px;
+}
+h2 {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
+  display: flex;
+  justify-content: center;
+  margin: 10px 120px 10px 120px;
 }
 .cafeproject-nav {
   width: 100%;
@@ -66,11 +90,18 @@ h1 {
 .cafeproject-nav a {
   color: var(--white-custom);
   text-decoration: none;
-  font-weight: 1px;
+  font-size: 9px;
 }
 .opening-hours {
   color: var(--white-custom);
   background-color: var(--black-custom);
+}
+.cafeproject-section_wrapper-italic {
+  border-left: 3px solid var(--light-gray-custom);
+  color: var(--black-custom);
+  background-color: var(--blue-light-custom);
+}
+.texte-italic {
 }
 .address {
   color: var(--white-custom);
@@ -81,12 +112,20 @@ h1 {
 .texte-normal {
   color: var(--black-custom);
 }
-.texte-italic {
+.mentions-complementaires_1 .mentions-complementaires_2 {
   color: var(--black-custom);
-  background-color: var(--blue-light-custom);
 }
-.mentions-complementaires_1mentions-complementaires_2 {
-  color: var(--black-custom);
+.cafeproject-photo_1 .cafeproject-photo_2 .cafeproject-photo_3 {
+  width: 100%;
+  height: 100%;
+}
+.cafeproject-photo_2 {
+  width: 100%;
+  height: 100%;
+}
+.cafeproject-photo_3 {
+  width: 100%;
+  height: 100%;
 }
 .button-menu {
   color: var(--black-custom);
@@ -103,6 +142,8 @@ h1 {
 input {
   background-color: var(--white-custom);
   color: var(--light-gray-custom);
+  margin-top: 10px;
+  padding: 10px 156px;
 }
 .cafeproject-colonm {
   color: var(--white-custom);
@@ -115,10 +156,12 @@ textarea {
 input[type="submit"] {
   color: var(--white-custom);
   background-color: var(--black-custom);
+  padding: 5px 11px;
 }
 .fui {
   color: var(--white-custom);
   background-color: var(--black-custom);
 }
-.cafeproject-nav {
+span {
+  font-weight: bold;
 }
