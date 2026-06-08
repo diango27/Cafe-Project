@@ -18,6 +18,9 @@
   font-family: "Inconsolata-Bold";
   font-family: "Inconsolata-Regular";
 }
+html {
+  font-size: 20px;
+}
 main {
   margin: 30px 15px 50px 15px;
 }
@@ -63,12 +66,14 @@ header {
 }
 h1 {
   color: var(--white-custom);
+  font-size: clamp(1rem, 6vw, 8rem);
 }
 h1 .block-text {
   display: block;
 }
 h1 .block-text:first-child {
   margin-bottom: 10px;
+  text-align: center;
 }
 h2 {
   color: var(--white-custom);
