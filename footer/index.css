@@ -1,0 +1,9 @@
+.cafeproject-footer {
+  background-color: var(--light-gray-custom);
+  color: var(--black-custom);
+  display: flex;
+  justify-content: center;
+  margin: 30px 1px;
+  width: 100%;
+  max-width: 1200px;
+}
