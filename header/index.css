@@ -1,14 +1,14 @@
 header {
   background-color: var(--black-custom);
   width: 100%;
-  max-width: 1200px;
+  @media (max-width: 1200px);
 }
 .cafeproject-header {
   background: url("../assets/coffeehouse.jpg");
   height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: grayscale(80%);
+  filter: grayscale(60%);
 }
 .cafeproject-section-header {
   height: 100%;

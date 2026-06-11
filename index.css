@@ -1,9 +1,10 @@
 :root {
   --black-custom: #000000;
   --white-custom: #ffffff;
-  --light-gray-custom: #e7e7e7;
-  --blue-light-custom: #e7edf7;
-  --ivory-custom: #e8e9e8;
+  --light-gray-custom: #f1f1f1;
+  --dark-gray-custom: #d5d5d5;
+  --blue-light-custom: #f1f1f1;
+  --ivory-custom: #f7f5f1;
 }
 @font-face {
   font-family: "Inconsolata-Bold";

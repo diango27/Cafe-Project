@@ -31,9 +31,12 @@ h2 {
   padding: 0px 8px;
 }
 .cafeproject-section_wrapper-italic {
-  border-left: 3px solid var(--light-gray-custom);
+  border-left: 4px solid var(--dark-gray-custom);
+  padding-left: 16px;
+  margin-left: 0px;
   color: var(--black-custom);
   background-color: var(--blue-light-custom);
+  margin: 23px 0px;
 }
 .cafeproject-section_title {
   color: var (--white-custom);
@@ -55,7 +58,7 @@ img {
   color: var(--black-custom);
 }
 .texte-tableau_gris {
-  color: var(--light-gray-custom);
+  color: var(--dark-gray-custom);
 }
 .texte-formulaire_gris {
   color: var(--light-gray-custom);
@@ -72,11 +75,14 @@ input {
 textarea {
   color: var(--black-custom);
   background-color: var(--white-custom);
+  padding-top: 22px;
+  width: 100%;
 }
 input[type="submit"] {
   color: var(--white-custom);
   background-color: var(--black-custom);
-  padding: 5px 11px;
+  padding-top: 22px;
+  width: 100%;
 }
 .fui {
   color: var(--white-custom);
@@ -84,4 +90,13 @@ input[type="submit"] {
 }
 span {
   font-weight: bold;
+}
+.texte-normal {
+  padding: 16px 0px;
+}
+.texte-italic {
+  padding-top: 16px;
+}
+.mentions-complementaires_1 {
+  padding: 16px 0px;
 }
