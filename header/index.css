@@ -1,7 +1,7 @@
 header {
   background-color: var(--black-custom);
   width: 100%;
-  @media (max-width: 1200px);
+  max-width: 1200px;
 }
 .cafeproject-header {
   background: url("../assets/coffeehouse.jpg");
