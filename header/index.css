@@ -36,7 +36,7 @@ h1 .block-text:first-child {
   align-items: center;
   text-decoration: none;
   font-weight: 50px;
-  padding: 15px;
+  height: 7%;
 }
 .cafeproject-nav a {
   color: var(--white-custom);
