@@ -24,7 +24,7 @@ h2 {
   background-color: var(--black-custom);
   display: flex;
   justify-content: center;
-  margin: 75px 0px;
+  margin: 48px 0px 69px 0px;
   font-size: clamp(1rem, 26px, 4rem);
   padding: 7px -1px;
   width: max-content;
@@ -43,9 +43,13 @@ h2 {
 }
 .texte-normal {
   color: var(--black-custom);
+  font-weight: bold;
+  font-size: clamp(1rem, 18px, 4rem);
 }
 .mentions-complementaires_1 .mentions-complementaires_2 {
   color: var(--black-custom);
+  font-weight: bold;
+  font-size: clamp(1rem, 18px, 4rem);
 }
 img {
   width: 100%;
@@ -74,7 +78,9 @@ textarea {
   margin: 10px 0;
   width: -moz-available;
   height: 40px;
+  font-weight: bold;
   font-size: clamp (1rem, 19px, 3rem);
+  border: none;
 }
 .cafeproject-colonm {
   color: var(--white-custom);
@@ -92,10 +98,12 @@ input[type="submit"] {
   padding: 8px 23px;
   font-size: large;
   width: auto;
+  border: none;
 }
 .fui {
   color: var(--white-custom);
   background-color: var(--black-custom);
+  padding: 4px;
 }
 span {
   font-weight: bold;
@@ -105,6 +113,8 @@ span {
 }
 .texte-italic {
   padding-top: 16px;
+  font-weight: bold;
+  font-size: clamp(1rem, 18px, 4rem);
 }
 .mentions-complementaires_1 {
   padding: 16px 0px;
@@ -116,20 +126,23 @@ span {
   flex-direction: column;
   box-shadow: 4px 2px 26px 6px var(--dark-gray-custom);
   padding: 22px 0;
-  margin: 59px 0;
+  margin-bottom: 33px;
   width: 100%;
 }
 .cafeproject-button {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   margin-top: -5px;
   width: 100%;
 }
 .cafeproject-section_container {
   box-shadow: 4px 2px 26px 6px var(--dark-gray-custom);
   width: 90%;
+  padding: 10px 15px;
 }
 button {
   border: none;
+  font-size: clamp(1rem, 18px, 4rem);
+  font-weight: bold;
 }
