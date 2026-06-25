@@ -1,6 +1,6 @@
 main {
   margin: 30px 15px 50px 15px;
-  width: 75%;
+  width: 93%;
   max-width: 1200px;
 }
 
@@ -57,14 +57,17 @@ img {
 }
 .button-menu {
   color: var(--black-custom);
+  background: none;
 }
 .texte-tableau_noir {
   color: var(--black-custom);
   margin: 60px 10px 20px 20px;
+  font-size: clamp(1rem, 22px, 4rem);
 }
 .texte-tableau_gris {
   color: var(--dark-gray-custom);
   margin: 26px 10px 20px 20px;
+  font-size: clamp(1rem, 21px, 4rem);
 }
 .texte-formulaire_gris {
   color: var(--black-custom);
@@ -74,13 +77,12 @@ input,
 textarea {
   background-color: var(--white-custom);
   color: var(--black-custom);
-  padding: 7px;
+  padding: 22px;
   margin: 10px 0;
   width: -moz-available;
-  height: 40px;
   font-weight: bold;
   font-size: clamp (1rem, 19px, 3rem);
-  border: none;
+  border: solid var(--dark-gray-custom) 2px;
 }
 .cafeproject-colonm {
   color: var(--white-custom);
@@ -89,7 +91,6 @@ textarea {
   color: var(--black-custom);
   background-color: var(--white-custom);
   padding-top: 22px;
-  height: 20px;
   font-size: clamp (1rem, 19px, 3rem);
 }
 input[type="submit"] {
