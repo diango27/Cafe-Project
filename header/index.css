@@ -19,14 +19,16 @@ header {
 }
 h1 {
   color: var(--white-custom);
-  font-size: clamp(1rem, 6vw, 8rem);
 }
 h1 .block-text {
   display: block;
+  font-size: clamp(1rem, 17vw, 6rem);
+  font-weight: lighter;
 }
 h1 .block-text:first-child {
-  margin-bottom: 10px;
+  margin-bottom: 39px;
   text-align: center;
+  font-weight: lighter;
 }
 .cafeproject-nav {
   width: 100%;
@@ -41,14 +43,14 @@ h1 .block-text:first-child {
 .cafeproject-nav a {
   color: var(--white-custom);
   text-decoration: none;
-  font-size: clamp(1rem, 17px, 4rem);
+  font-size: clamp(1rem, 2vw, 4rem);
 }
 .opening-hours {
   color: var(--white-custom);
   background-color: var(--black-custom);
-  font-size: clamp(1rem, 17px, 4rem);
+  font-size: clamp(1rem, 2vw, 4rem);
 }
 .address {
   color: var(--white-custom);
-  font-size: clamp(1rem, 17px, 4rem);
+  font-size: clamp(1rem, 2vw, 4rem);
 }
