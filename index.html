@@ -8,10 +8,11 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
     <title>Café-Project</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./header/index.css" />
-    <link rel="stylesheet" href="./footer/index.css" />
-    <link rel="stylesheet" href="./main/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header/index.css" />
+    <link rel="stylesheet" href="./css/footer/index.css" />
+    <link rel="stylesheet" href="./css/main/index.css" />
+    <link rel="stylesheet" href="./css/main/menu.css" />
   </head>
   <body>
     <header class="cafeproject-header">
@@ -77,9 +78,45 @@
             <button class="button-menu">Eat</button>
             <button class="button-menu">Drink</button>
           </div>
-          <div class="cafeproject-section_container">
+          <div id="eat" class="cafeproject-section_container eat not-visible">
             <div class="cafeproject-section_item">
               <h3 class="texte-tableau_noir">Bread Basket</h3>
+              <p class="texte-tableau_gris">
+                Assortment of fresh baked fruit breads and muffins 5.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">
+                Honey Almond Granola with Fruits
+              </h3>
+              <p class="texte-tableau_gris">
+                Natural cereal of honey toasted oats, raisins, almonds and dates
+                7.00
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Belgian Waffle</h3>
+              <p class="texte-tableau_gris">
+                Vanilla flavored batter with malted flour 7.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Scrambled eggs</h3>
+              <p class="texte-tableau_gris">
+                Scrambled eggs, roasted red pepper and garlic, with green onions
+                7.50
+              </p>
+            </div>
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">Blueberry Pancakes</h3>
+              <p class="texte-tableau_gris">
+                With syrop, butter and lots of berries 8.50
+              </p>
+            </div>
+          </div>
+          <div id="drink" class="cafeproject-section_container drink">
+            <div class="cafeproject-section_item">
+              <h3 class="texte-tableau_noir">drink first</h3>
               <p class="texte-tableau_gris">
                 Assortment of fresh baked fruit breads and muffins 5.50
               </p>
@@ -185,5 +222,6 @@
     <footer class="cafeproject-footer">
       <p>Powered by <span>w3.css</span></p>
     </footer>
+    <script src="./js/cafe-project.js"></script>
   </body>
 </html>

@@ -1,0 +1,45 @@
+:root {
+  --black-custom: #000000;
+  --white-custom: #ffffff;
+  --light-gray-custom: #f1f1f1;
+  --dark-gray-custom: #d5d5d5;
+  --blue-light-custom: #f1f1f1;
+  --ivory-custom: #f7f5f1;
+}
+@font-face {
+  font-family: "Inconsolata-Bold";
+  src: url("../assets/font/Inconsolata-Bold.ttf");
+
+  font-family: "Inconsolata-Regular";
+  src: url("../assets/font/Inconsolata-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata-Bold";
+  font-family: "Inconsolata-Regular";
+}
+html {
+  font-size: 17px;
+}
+textarea {
+  resize: none;
+}
+body {
+  background-color: var(--ivory-custom);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1000px) {
+  .cafeproject-principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+  }
+}

@@ -1,0 +1,56 @@
+header {
+  background-color: var(--black-custom);
+  width: 100%;
+  max-width: 1200px;
+}
+.cafeproject-header {
+  background: url("../../assets/coffeehouse.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(60%);
+}
+.cafeproject-section-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: var(--white-custom);
+}
+h1 .block-text {
+  display: block;
+  font-size: clamp(1rem, 17vw, 6rem);
+  font-weight: lighter;
+}
+h1 .block-text:first-child {
+  margin-bottom: 39px;
+  text-align: center;
+  font-weight: lighter;
+}
+.cafeproject-nav {
+  width: 100%;
+  background-color: var(--black-custom);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 50px;
+  height: 7%;
+}
+.cafeproject-nav a {
+  color: var(--white-custom);
+  text-decoration: none;
+  font-size: clamp(1rem, 2vw, 4rem);
+}
+.opening-hours {
+  color: var(--white-custom);
+  background-color: var(--black-custom);
+  font-size: clamp(1rem, 2vw, 4rem);
+}
+.address {
+  color: var(--white-custom);
+  font-size: clamp(1rem, 2vw, 4rem);
+}
